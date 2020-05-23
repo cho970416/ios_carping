@@ -27,14 +27,14 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y5H-dc-w7u">
-                    <rect key="frame" x="0.0" y="100" width="414" height="762"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5H-dc-w7u">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nGd-ZE-ir0">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="2200"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPe-XY-jf6">
-                                    <rect key="frame" x="27" y="470" width="360" height="236.5"/>
+                                    <rect key="frame" x="27" y="425.5" width="360" height="236.5"/>
                                     <string key="text">안목해변은 쉽게 질리지 않을 뿐만 아니라 가면 갈수록 그 한적함과 여유로움에 점점 더 반하게 되는 곳입니다. 
 
 당장 이번 여름이 가기 전에 기회가 된다면 한번 더 다녀오고 싶어지니까요. 
@@ -46,14 +46,14 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fjg-qD-bxB">
-                                    <rect key="frame" x="0.0" y="748.5" width="414" height="437"/>
+                                    <rect key="frame" x="0.0" y="704" width="414" height="437"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="437" id="Ecn-at-a9O"/>
                                     </constraints>
-                                    <state key="normal" image="ic_homedetail_square_darkgray"/>
+                                    <state key="normal" image="스크린샷 2020-05-23 오후 12.28.33"/>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cF-Ky-YP3">
-                                    <rect key="frame" x="27" y="1203.5" width="360" height="158"/>
+                                    <rect key="frame" x="27" y="1159" width="360" height="158"/>
                                     <string key="text">드넓은 모래사장을 바라보며 파도치는 소리를 가만히 듣고 있기만해도 힐링이 되는 걸 느낄 수 있을거에요. 
 
 푸른 하늘에 둥둥 떠다니는 구름이 흘러가는 것만 구경해도 하루가 훅 지나갈거에요.</string>
@@ -62,39 +62,43 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTZ-A3-8Co">
-                                    <rect key="frame" x="0.0" y="1388.5" width="414" height="437"/>
+                                    <rect key="frame" x="0.0" y="1344" width="414" height="437"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="437" id="8Gq-kf-Vhy"/>
                                     </constraints>
-                                    <state key="normal" image="ic_homedetail_square_darkgray"/>
+                                    <state key="normal" image="스크린샷 2020-05-23 오후 12.28.14"/>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="강릉 안목해변에서 노을지는 해변을 바라보며 하루를 마무리해보세요. 잊을 수 없는 추억을 만들 수 있을 거에요!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sa6-BS-b2V">
-                                    <rect key="frame" x="27" y="1843.5" width="360" height="79"/>
+                                    <rect key="frame" x="27" y="1799" width="360" height="79"/>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
                                     <color key="textColor" red="0.65490645169999995" green="0.65489393470000001" blue="0.65490239859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_anmokbeach" translatesAutoresizingMaskIntoConstraints="NO" id="R1t-pQ-zKq">
-                                    <rect key="frame" x="40" y="1966.5" width="334" height="88"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vv-vS-gSa">
+                                    <rect key="frame" x="40" y="1922" width="334" height="88"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="88" id="HDz-1q-Ygl"/>
+                                        <constraint firstAttribute="height" constant="88" id="7UR-Ke-OJw"/>
                                     </constraints>
-                                </imageView>
+                                    <state key="normal" image="ic_anmokbeach"/>
+                                    <connections>
+                                        <action selector="presentHomeDetailLocationVC:" destination="-1" eventType="touchUpInside" id="GK5-Zw-gd1"/>
+                                    </connections>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="rTZ-A3-8Co" secondAttribute="trailing" id="0y5-zm-91k"/>
-                                <constraint firstAttribute="trailing" secondItem="R1t-pQ-zKq" secondAttribute="trailing" constant="40" id="2Eq-Xe-wLU"/>
                                 <constraint firstAttribute="trailing" secondItem="Fjg-qD-bxB" secondAttribute="trailing" id="351-fe-LJk"/>
                                 <constraint firstAttribute="trailing" secondItem="sa6-BS-b2V" secondAttribute="trailing" constant="27" id="5fL-an-4kc"/>
                                 <constraint firstItem="sa6-BS-b2V" firstAttribute="top" secondItem="rTZ-A3-8Co" secondAttribute="bottom" constant="18" id="7HI-wL-WdM"/>
-                                <constraint firstItem="R1t-pQ-zKq" firstAttribute="top" secondItem="sa6-BS-b2V" secondAttribute="bottom" constant="44" id="82x-zv-pi7"/>
-                                <constraint firstItem="R1t-pQ-zKq" firstAttribute="leading" secondItem="nGd-ZE-ir0" secondAttribute="leading" constant="40" id="E01-Kr-csc"/>
                                 <constraint firstItem="tPe-XY-jf6" firstAttribute="leading" secondItem="nGd-ZE-ir0" secondAttribute="leading" constant="27" id="GYK-wp-uHO"/>
+                                <constraint firstItem="5Vv-vS-gSa" firstAttribute="leading" secondItem="nGd-ZE-ir0" secondAttribute="leading" constant="40" id="SEh-fO-iEO"/>
                                 <constraint firstItem="Fjg-qD-bxB" firstAttribute="leading" secondItem="nGd-ZE-ir0" secondAttribute="leading" id="czx-8L-iAd"/>
+                                <constraint firstItem="5Vv-vS-gSa" firstAttribute="top" secondItem="sa6-BS-b2V" secondAttribute="bottom" constant="44" id="hdi-PO-Yw8"/>
                                 <constraint firstItem="1cF-Ky-YP3" firstAttribute="leading" secondItem="nGd-ZE-ir0" secondAttribute="leading" constant="27" id="hxD-J1-n9r"/>
                                 <constraint firstItem="rTZ-A3-8Co" firstAttribute="leading" secondItem="nGd-ZE-ir0" secondAttribute="leading" id="m3b-vc-eVw"/>
                                 <constraint firstItem="Fjg-qD-bxB" firstAttribute="top" secondItem="tPe-XY-jf6" secondAttribute="bottom" constant="42" id="nBN-qt-Ybx"/>
+                                <constraint firstAttribute="trailing" secondItem="5Vv-vS-gSa" secondAttribute="trailing" constant="40" id="pfz-8n-DZb"/>
                                 <constraint firstItem="rTZ-A3-8Co" firstAttribute="top" secondItem="1cF-Ky-YP3" secondAttribute="bottom" constant="27" id="rae-Qu-rEC"/>
                                 <constraint firstItem="1cF-Ky-YP3" firstAttribute="top" secondItem="Fjg-qD-bxB" secondAttribute="bottom" constant="18" id="s3N-J7-Dgx"/>
                                 <constraint firstAttribute="height" constant="2200" id="vii-nK-pUO"/>
@@ -103,21 +107,21 @@
                             </constraints>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vee-rZ-dWE">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="437"/>
+                            <rect key="frame" x="0.0" y="-44.5" width="414" height="437"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="437" id="cAL-Yg-qvB"/>
                             </constraints>
-                            <state key="normal" image="ic_homedetail_square_darkgray"/>
+                            <state key="normal" image="이미지 32"/>
                         </button>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_beach" translatesAutoresizingMaskIntoConstraints="NO" id="pC5-Z3-cGK">
-                            <rect key="frame" x="40" y="264" width="53" height="27"/>
+                            <rect key="frame" x="40" y="219.5" width="53" height="27"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="27" id="4CJ-xd-51f"/>
                                 <constraint firstAttribute="width" constant="53" id="Snn-T0-OfA"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="지금 바로 떠나보세요!" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2St-zy-15n">
-                            <rect key="frame" x="40" y="292" width="140" height="89"/>
+                            <rect key="frame" x="40" y="247.5" width="140" height="89"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="89" id="cif-ON-4ZI"/>
                             </constraints>
@@ -126,7 +130,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한적함과 여유로움에 점점 더 반하게 되는 강릉 안목해변" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqD-g7-mQm">
-                            <rect key="frame" x="40" y="382" width="193" height="29"/>
+                            <rect key="frame" x="40" y="337.5" width="193" height="29"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
                             <color key="textColor" red="0.89412361380000005" green="0.89410680529999997" blue="0.89411824939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <nil key="highlightedColor"/>
@@ -144,7 +148,7 @@
                         <constraint firstItem="YqD-g7-mQm" firstAttribute="top" secondItem="2St-zy-15n" secondAttribute="bottom" constant="1" id="ObS-N0-ceY"/>
                         <constraint firstItem="nGd-ZE-ir0" firstAttribute="width" secondItem="Y5H-dc-w7u" secondAttribute="width" multiplier="0.957333" constant="17.66413799999998" id="Ufe-14-jyY"/>
                         <constraint firstItem="vee-rZ-dWE" firstAttribute="leading" secondItem="Y5H-dc-w7u" secondAttribute="leading" id="aWe-wA-2Df"/>
-                        <constraint firstItem="vee-rZ-dWE" firstAttribute="top" secondItem="Y5H-dc-w7u" secondAttribute="top" id="gs1-Kq-MhU"/>
+                        <constraint firstItem="vee-rZ-dWE" firstAttribute="top" secondItem="Y5H-dc-w7u" secondAttribute="top" constant="-44.5" id="gs1-Kq-MhU"/>
                         <constraint firstItem="YqD-g7-mQm" firstAttribute="leading" secondItem="Y5H-dc-w7u" secondAttribute="leading" constant="40" id="h2A-Lk-d1G"/>
                         <constraint firstItem="nGd-ZE-ir0" firstAttribute="leading" secondItem="Y5H-dc-w7u" secondAttribute="leading" id="n02-JL-v35"/>
                         <constraint firstItem="YqD-g7-mQm" firstAttribute="bottom" secondItem="vee-rZ-dWE" secondAttribute="bottom" constant="-26" id="nRZ-Sv-N5L"/>
@@ -152,14 +156,14 @@
                     </constraints>
                 </scrollView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n3H-A3-6Nb">
-                    <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                    <rect key="frame" x="0.0" y="846" width="414" height="50"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OD4-hh-8r4">
-                            <rect key="frame" x="40" y="13" width="48" height="48"/>
+                            <rect key="frame" x="40" y="13" width="24" height="24"/>
                             <state key="normal" image="ic_favorite"/>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzQ-LV-WvH">
-                            <rect key="frame" x="88" y="13" width="24" height="24"/>
+                            <rect key="frame" x="64" y="13" width="24" height="24"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="24" id="er1-Yu-3kj"/>
                                 <constraint firstAttribute="height" constant="24" id="u4p-5C-Ibx"/>
@@ -169,11 +173,11 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="def-cy-gKe">
-                            <rect key="frame" x="326" y="13" width="48" height="48"/>
+                            <rect key="frame" x="350" y="13" width="24" height="24"/>
                             <state key="normal" image="ic_bookmark"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSe-dY-snB">
-                            <rect key="frame" x="257" y="13" width="50" height="48"/>
+                            <rect key="frame" x="306" y="13" width="25" height="24"/>
                             <state key="normal" image="ic_share"/>
                         </button>
                     </subviews>
@@ -190,11 +194,11 @@
                         <constraint firstAttribute="height" constant="50" id="rU6-Zj-YvB"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URC-bl-U36">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URC-bl-U36" userLabel="HeaderView">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cI7-Rn-fXt">
-                            <rect key="frame" x="16" y="44" width="48" height="48"/>
+                            <rect key="frame" x="16" y="44" width="24" height="24"/>
                             <state key="normal" image="ic_small_left_arrow"/>
                             <connections>
                                 <action selector="presentPreviousVC:" destination="-1" eventType="touchUpInside" id="1Xb-2V-EUy"/>
@@ -212,7 +216,6 @@
                             </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="0.41568923000000002" green="0.41568091509999999" blue="0.41568654779999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="wHA-0s-Bcn" secondAttribute="trailing" constant="16" id="R0E-66-4et"/>
                         <constraint firstItem="cI7-Rn-fXt" firstAttribute="leading" secondItem="URC-bl-U36" secondAttribute="leading" constant="16" id="XoV-dI-gxH"/>
@@ -228,15 +231,15 @@
                 <constraint firstItem="URC-bl-U36" firstAttribute="top" secondItem="eE1-C3-THY" secondAttribute="top" id="BeO-6a-Adp"/>
                 <constraint firstItem="Y5H-dc-w7u" firstAttribute="leading" secondItem="Djk-m6-PsN" secondAttribute="leading" id="FyX-kq-N5s"/>
                 <constraint firstItem="n3H-A3-6Nb" firstAttribute="leading" secondItem="Djk-m6-PsN" secondAttribute="leading" id="GkJ-SF-r5Y"/>
-                <constraint firstItem="cI7-Rn-fXt" firstAttribute="top" secondItem="Djk-m6-PsN" secondAttribute="top" id="IPV-dC-C8C"/>
-                <constraint firstItem="Y5H-dc-w7u" firstAttribute="top" secondItem="URC-bl-U36" secondAttribute="bottom" id="K04-q7-7D4"/>
+                <constraint firstItem="cI7-Rn-fXt" firstAttribute="top" secondItem="URC-bl-U36" secondAttribute="top" constant="44" id="IPV-dC-C8C"/>
+                <constraint firstItem="Y5H-dc-w7u" firstAttribute="top" secondItem="eE1-C3-THY" secondAttribute="top" id="K04-q7-7D4"/>
                 <constraint firstItem="URC-bl-U36" firstAttribute="leading" secondItem="Djk-m6-PsN" secondAttribute="leading" id="Wm1-ky-YsC"/>
                 <constraint firstItem="Djk-m6-PsN" firstAttribute="bottom" secondItem="Y5H-dc-w7u" secondAttribute="bottom" id="ghZ-nT-fxt"/>
                 <constraint firstItem="Djk-m6-PsN" firstAttribute="trailing" secondItem="Y5H-dc-w7u" secondAttribute="trailing" id="juD-10-ug7"/>
-                <constraint firstItem="Djk-m6-PsN" firstAttribute="bottom" secondItem="n3H-A3-6Nb" secondAttribute="bottom" id="wml-7A-vr1"/>
+                <constraint firstAttribute="bottom" secondItem="n3H-A3-6Nb" secondAttribute="bottom" id="wml-7A-vr1"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Djk-m6-PsN"/>
-            <point key="canvasLocation" x="424.63768115942031" y="140.625"/>
+            <point key="canvasLocation" x="413" y="-73"/>
         </view>
     </objects>
     <resources>
@@ -245,8 +248,10 @@
         <image name="ic_bookmark" width="24" height="24"/>
         <image name="ic_favorite" width="24" height="24"/>
         <image name="ic_home" width="24" height="24"/>
-        <image name="ic_homedetail_square_darkgray" width="375" height="509"/>
         <image name="ic_share" width="25" height="24"/>
         <image name="ic_small_left_arrow" width="24" height="24"/>
+        <image name="스크린샷 2020-05-23 오후 12.28.14" width="457" height="367"/>
+        <image name="스크린샷 2020-05-23 오후 12.28.33" width="510" height="381"/>
+        <image name="이미지 32" width="652" height="595"/>
     </resources>
 </document>

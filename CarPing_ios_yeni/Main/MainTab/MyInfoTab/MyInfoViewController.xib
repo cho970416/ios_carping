@@ -31,14 +31,8 @@
                                 <constraint firstAttribute="height" constant="24" id="TrD-eY-wAf"/>
                                 <constraint firstAttribute="width" constant="24" id="g8k-pC-vc1"/>
                             </constraints>
-                            <state key="normal" image="square_gray"/>
+                            <state key="normal" image="ic_setting"/>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOl-h6-Rit">
-                            <rect key="frame" x="358" y="98" width="26" height="18"/>
-                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                            <color key="textColor" red="0.51767927410000003" green="0.52156001330000001" blue="0.52156907320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            <nil key="highlightedColor"/>
-                        </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="위너님," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPm-2H-4ln">
                             <rect key="frame" x="34" y="119" width="69.5" height="29"/>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
@@ -56,14 +50,12 @@
                     <constraints>
                         <constraint firstItem="lYZ-hQ-uOP" firstAttribute="top" secondItem="uPm-2H-4ln" secondAttribute="bottom" id="3cA-aA-KCl"/>
                         <constraint firstItem="lYZ-hQ-uOP" firstAttribute="leading" secondItem="zP7-wn-WUi" secondAttribute="leading" constant="34" id="48k-et-vlp"/>
-                        <constraint firstItem="GOl-h6-Rit" firstAttribute="top" secondItem="mA5-h8-tXR" secondAttribute="bottom" constant="6" id="KbR-4m-ynO"/>
                         <constraint firstItem="mA5-h8-tXR" firstAttribute="top" secondItem="zP7-wn-WUi" secondAttribute="top" constant="68" id="ORS-wR-ffK"/>
                         <constraint firstItem="uPm-2H-4ln" firstAttribute="leading" secondItem="zP7-wn-WUi" secondAttribute="leading" constant="34" id="SRD-JW-EnP"/>
                         <constraint firstItem="A1J-pk-ssu" firstAttribute="leading" secondItem="zP7-wn-WUi" secondAttribute="leading" constant="34" id="SrR-hX-XpX"/>
                         <constraint firstAttribute="trailing" secondItem="mA5-h8-tXR" secondAttribute="trailing" constant="31" id="XaQ-A9-Zd6"/>
                         <constraint firstItem="uPm-2H-4ln" firstAttribute="top" secondItem="A1J-pk-ssu" secondAttribute="bottom" constant="7" id="eGo-7C-g4R"/>
                         <constraint firstAttribute="height" constant="213.5" id="mqg-rf-sBN"/>
-                        <constraint firstItem="GOl-h6-Rit" firstAttribute="centerX" secondItem="mA5-h8-tXR" secondAttribute="centerX" id="xz7-LB-RRq"/>
                         <constraint firstItem="A1J-pk-ssu" firstAttribute="top" secondItem="zP7-wn-WUi" secondAttribute="top" constant="60" id="xzO-Va-QQ4"/>
                     </constraints>
                 </view>
@@ -83,7 +75,10 @@
                                 <constraint firstAttribute="width" constant="36" id="c2J-9g-8pf"/>
                                 <constraint firstAttribute="height" constant="36" id="kB3-HN-bIL"/>
                             </constraints>
-                            <state key="normal" image="square_gray"/>
+                            <state key="normal" image="ic_bookmark_gray"/>
+                            <connections>
+                                <action selector="presentSaveVC:" destination="-1" eventType="touchUpInside" id="FK1-1r-jLB"/>
+                            </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="저장" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yw0-jZ-buW">
                             <rect key="frame" x="194" y="63.5" width="26" height="18"/>
@@ -97,7 +92,7 @@
                                 <constraint firstAttribute="width" constant="36" id="Mws-vT-BbW"/>
                                 <constraint firstAttribute="height" constant="36" id="stg-tO-BWP"/>
                             </constraints>
-                            <state key="normal" image="square_gray"/>
+                            <state key="normal" image="ic_bookmark_gray"/>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내 게시물" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2DI-Xn-CtI">
                             <rect key="frame" x="317" y="63.5" width="56" height="18"/>
@@ -125,12 +120,12 @@
                         <constraint firstAttribute="width" constant="36" id="6Nt-yl-rOK"/>
                         <constraint firstAttribute="height" constant="36" id="uH3-SU-fcy"/>
                     </constraints>
-                    <state key="normal" image="square_gray"/>
+                    <state key="normal" image="ic_account"/>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개인정보" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YuW-Q1-97L">
                     <rect key="frame" x="39" y="278" width="52" height="18"/>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                    <color key="textColor" red="0.51767927410000003" green="0.52156001330000001" blue="0.52156907320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W38-CV-fq9">
@@ -165,7 +160,9 @@
         </view>
     </objects>
     <resources>
+        <image name="ic_account" width="32" height="32"/>
+        <image name="ic_bookmark_gray" width="36" height="36"/>
         <image name="ic_profile" width="52" height="52"/>
-        <image name="square_gray" width="36" height="36"/>
+        <image name="ic_setting" width="24" height="24"/>
     </resources>
 </document>

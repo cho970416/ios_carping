@@ -136,6 +136,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C1C5CC4E24792CD8000FE7BE /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
 		C1DB88D124777EC800FF2401 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +155,7 @@
 		C1DB88D62477A17200FF2401 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				C1C5CC4E24792CD8000FE7BE /* DataManager */,
 				C1DB88D72477A18300FF2401 /* MainTab */,
 			);
 			path = Main;

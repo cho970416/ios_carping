@@ -27,7 +27,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="kr5-IS-0oR" firstAttribute="top" secondItem="riG-yN-fIe" secondAttribute="top" constant="20" id="IgB-6z-0Ec"/>
                         </constraints>
@@ -45,9 +45,8 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_test_small" translatesAutoresizingMaskIntoConstraints="NO" id="KZv-Hr-JrL">
-                        <rect key="frame" x="10" y="0.0" width="160" height="200"/>
+                        <rect key="frame" x="10" y="0.0" width="160" height="220"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="200" id="HhA-qA-evz"/>
                             <constraint firstAttribute="width" constant="160" id="Pbb-7C-BOr"/>
                         </constraints>
                     </imageView>
@@ -62,13 +61,20 @@
                 <constraint firstItem="Gvm-nh-Egr" firstAttribute="top" secondItem="kr5-IS-0oR" secondAttribute="bottom" constant="10" id="XH5-rt-R3g"/>
                 <constraint firstItem="kr5-IS-0oR" firstAttribute="leading" secondItem="KZv-Hr-JrL" secondAttribute="trailing" constant="10" id="Y4e-bJ-Q2b"/>
                 <constraint firstItem="Gvm-nh-Egr" firstAttribute="leading" secondItem="KZv-Hr-JrL" secondAttribute="trailing" constant="10" id="Zbt-Nj-uMB"/>
+                <constraint firstItem="riG-yN-fIe" firstAttribute="bottom" secondItem="KZv-Hr-JrL" secondAttribute="bottom" id="ZcE-Yc-jW6"/>
                 <constraint firstAttribute="trailing" secondItem="riG-yN-fIe" secondAttribute="trailing" id="vk3-lt-JwK"/>
                 <constraint firstItem="GjW-i5-Iph" firstAttribute="leading" secondItem="KZv-Hr-JrL" secondAttribute="trailing" constant="10" id="yK1-mV-WXE"/>
                 <constraint firstItem="GjW-i5-Iph" firstAttribute="top" secondItem="Gvm-nh-Egr" secondAttribute="bottom" constant="87" id="yPE-gk-1dr"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Tsx-jK-O6U"/>
             <size key="customSize" width="56" height="50"/>
-            <point key="canvasLocation" x="-454" y="52"/>
+            <connections>
+                <outlet property="detailLB" destination="Gvm-nh-Egr" id="50h-Vc-psb"/>
+                <outlet property="locationImg" destination="KZv-Hr-JrL" id="p9a-1f-7nx"/>
+                <outlet property="reviewLB" destination="GjW-i5-Iph" id="Ixn-Kz-36h"/>
+                <outlet property="titleLB" destination="kr5-IS-0oR" id="yNf-gW-Jjx"/>
+            </connections>
+            <point key="canvasLocation" x="-455.07246376811599" y="51.5625"/>
         </collectionViewCell>
     </objects>
     <resources>

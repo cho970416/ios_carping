@@ -47,6 +47,11 @@ class FirstDetailViewController: UIViewController {
 
                self.present(HomeDetailLocationvc, animated: true, completion: nil)
     }
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

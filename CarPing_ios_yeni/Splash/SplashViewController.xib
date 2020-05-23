@@ -18,7 +18,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square_gray" translatesAutoresizingMaskIntoConstraints="NO" id="lNI-6Z-nbi">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="그룹 190" translatesAutoresizingMaskIntoConstraints="NO" id="lNI-6Z-nbi">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                 </imageView>
             </subviews>
@@ -34,6 +34,6 @@
         </view>
     </objects>
     <resources>
-        <image name="square_gray" width="36" height="36"/>
+        <image name="그룹 190" width="375" height="812"/>
     </resources>
 </document>
