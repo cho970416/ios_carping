@@ -28,29 +28,30 @@ class LocationsDataManager {
             .responseObject(completionHandler: { (response: DataResponse<LocationResponse>) in
                 switch response.result {
                 case .success(let locationsResponse):
-                    if (locationsResponse.code == 200) {
-                    
-                        for index in 0..<locationsResponse.result.count{
-                            
-                      
-                
-                           let FirstEventURL = URL(string: locationsResponse.result[index].thumbnail)
-                            
-                            let RestaurantsURL = URL(string: restaurantsResponse.result[index].img)!
-                            findingGoodRestaurantViewController.restaurantsImage.insert(RestaurantsURL, at: index)
-                            searchViewController.locationImg.kf.setImage(with: FirstEventURL)
-                            
-                            searchViewController.locationsReviewCnt.text = eventDetailResponse.result[index].title
-                            searchViewController.locationsAddress.text = eventDetailResponse.result[index].title
-                            searchViewController.locationsPlaceName.text = eventDetailResponse.result[index].title
-                                
+                    if (locationsResponse.code == 100) {
+                        searchViewController.getPlaceByReview(response: locationsResponse.result)
+//                        for index in 0..<locationsResponse.result.count{
+//
+//
+//
+//                           let FirstEventURL = URL(string: locationsResponse.result[index].thumbnail)
+//
+//
+//                            searchViewController.locationsThumbnail.insert(FirstEventURL!, at: index)
+//
+//
+//
+//                            searchViewController.locationsAddress.insert(locationsResponse.result[index].address, at: index)
+//                            searchViewController.locationsPlaceName.text = String(locationsResponse.result[index].title)
+//                            searchViewController.locationsReviewCnt.text = locationsResponse.result[index].title
+//
                            
                             
                             
                            
-                        }
                         
-                        searchViewController.setRestaurantList()
+                        
+//                        searchViewController.setRestaurantList()
                         
                        
                         
