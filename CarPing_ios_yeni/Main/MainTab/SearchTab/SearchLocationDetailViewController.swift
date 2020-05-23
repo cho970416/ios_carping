@@ -1,28 +1,15 @@
 //
-//  FirstDetailViewController.swift
+//  SearchLocationDetailViewController.swift
 //  CarPing_ios_yeni
 //
-//  Created by 조예은 on 2020/05/22.
+//  Created by 조예은 on 2020/05/23.
 //  Copyright © 2020 eunjoyer. All rights reserved.
 //
 
 import UIKit
 
-class FirstDetailViewController: UIViewController {
-    
-    @IBOutlet weak var mainBtn: UIButton!
-    @IBOutlet weak var mainOneLB: UILabel!
-    @IBOutlet weak var mainTwoLB: UILabel!
-    @IBOutlet weak var mainThreeLB: UILabel!
-    
-    @IBOutlet weak var detailOneBtn: UIButton!
-    @IBOutlet weak var detailOneLB: UILabel!
-    
-    @IBOutlet weak var detailTwoBtn: UIButton!
-    @IBOutlet weak var detailTwoLB: UILabel!
-    
-    @IBOutlet weak var favoriteCtnLB: UILabel!
-    
+class SearchLocationDetailViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,14 +26,7 @@ class FirstDetailViewController: UIViewController {
     @IBAction func presentPreviousVC(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
-    
-    
-    @IBAction func presentHomeDetailLocationVC(_ sender: UIButton) {
-        let HomeDetailLocationvc = HomeDetailLocationViewController() //change this to your class name
-               HomeDetailLocationvc.modalPresentationStyle = .fullScreen
 
-               self.present(HomeDetailLocationvc, animated: true, completion: nil)
-    }
     /*
     // MARK: - Navigation
 
