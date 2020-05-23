@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1DB88D424777EDF00FF2401 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88D224777EDF00FF2401 /* SplashViewController.swift */; };
+		C1DB88D524777EDF00FF2401 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DB88D324777EDF00FF2401 /* SplashViewController.xib */; };
+		C1DB88D92477A19D00FF2401 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88D82477A19D00FF2401 /* MainTabViewController.swift */; };
+		C1DB88E12477A31A00FF2401 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88DF2477A31A00FF2401 /* HomeViewController.swift */; };
+		C1DB88E22477A31A00FF2401 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DB88E02477A31A00FF2401 /* HomeViewController.xib */; };
+		C1DB88E52477A38800FF2401 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88E32477A38800FF2401 /* CommunityViewController.swift */; };
+		C1DB88E62477A38800FF2401 /* CommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DB88E42477A38800FF2401 /* CommunityViewController.xib */; };
+		C1DB88E92477A39800FF2401 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88E72477A39800FF2401 /* MyInfoViewController.swift */; };
+		C1DB88EA2477A39800FF2401 /* MyInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DB88E82477A39800FF2401 /* MyInfoViewController.xib */; };
+		C1DB88F22477A74E00FF2401 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88F12477A74E00FF2401 /* UIColor.swift */; };
+		C1DB88F62477F1F400FF2401 /* FirstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88F42477F1F400FF2401 /* FirstDetailViewController.swift */; };
+		C1DB88F72477F1F400FF2401 /* FirstDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DB88F52477F1F400FF2401 /* FirstDetailViewController.xib */; };
+		C1DB88FC24780E5600FF2401 /* HomeDetailLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88FA24780E5600FF2401 /* HomeDetailLocationViewController.swift */; };
+		C1DB88FD24780E5600FF2401 /* HomeDetailLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DB88FB24780E5600FF2401 /* HomeDetailLocationViewController.xib */; };
+		C1DB8900247811E100FF2401 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88FE247811E100FF2401 /* SearchViewController.swift */; };
+		C1DB8901247811E100FF2401 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DB88FF247811E100FF2401 /* SearchViewController.xib */; };
+		C1F16BBF247643F30043394D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F16BBE247643F30043394D /* AppDelegate.swift */; };
+		C1F16BC8247643F40043394D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F16BC7247643F40043394D /* Assets.xcassets */; };
+		C1F16BCB247643F40043394D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F16BC9247643F40043394D /* LaunchScreen.storyboard */; };
+		C1F16BD6247643F40043394D /* CarPing_ios_yeniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F16BD5247643F40043394D /* CarPing_ios_yeniTests.swift */; };
+		C1F16BE1247643F40043394D /* CarPing_ios_yeniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F16BE0247643F40043394D /* CarPing_ios_yeniUITests.swift */; };
+		FEBC755BB383F3719BB993A4 /* Pods_CarPing_ios_yeni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C750A2B53764E7337F5CE258 /* Pods_CarPing_ios_yeni.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1F16BD2247643F40043394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F16BB3247643F30043394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F16BBA247643F30043394D;
+			remoteInfo = CarPing_ios_yeni;
+		};
+		C1F16BDD247643F40043394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F16BB3247643F30043394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F16BBA247643F30043394D;
+			remoteInfo = CarPing_ios_yeni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65DCCA6C26A0CCADAB8F403C /* Pods-CarPing_ios_yeni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPing_ios_yeni.debug.xcconfig"; path = "Target Support Files/Pods-CarPing_ios_yeni/Pods-CarPing_ios_yeni.debug.xcconfig"; sourceTree = "<group>"; };
+		C1DB88D224777EDF00FF2401 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C1DB88D324777EDF00FF2401 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		C1DB88D82477A19D00FF2401 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		C1DB88DF2477A31A00FF2401 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C1DB88E02477A31A00FF2401 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C1DB88E32477A38800FF2401 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		C1DB88E42477A38800FF2401 /* CommunityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunityViewController.xib; sourceTree = "<group>"; };
+		C1DB88E72477A39800FF2401 /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		C1DB88E82477A39800FF2401 /* MyInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyInfoViewController.xib; sourceTree = "<group>"; };
+		C1DB88F12477A74E00FF2401 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C1DB88F42477F1F400FF2401 /* FirstDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDetailViewController.swift; sourceTree = "<group>"; };
+		C1DB88F52477F1F400FF2401 /* FirstDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstDetailViewController.xib; sourceTree = "<group>"; };
+		C1DB88FA24780E5600FF2401 /* HomeDetailLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailLocationViewController.swift; sourceTree = "<group>"; };
+		C1DB88FB24780E5600FF2401 /* HomeDetailLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeDetailLocationViewController.xib; sourceTree = "<group>"; };
+		C1DB88FE247811E100FF2401 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C1DB88FF247811E100FF2401 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		C1F16BBB247643F30043394D /* CarPing_ios_yeni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPing_ios_yeni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F16BBE247643F30043394D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1F16BC7247643F40043394D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F16BCA247643F40043394D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1F16BCC247643F40043394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F16BD1247643F40043394D /* CarPing_ios_yeniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPing_ios_yeniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F16BD5247643F40043394D /* CarPing_ios_yeniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPing_ios_yeniTests.swift; sourceTree = "<group>"; };
+		C1F16BD7247643F40043394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F16BDC247643F40043394D /* CarPing_ios_yeniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPing_ios_yeniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F16BE0247643F40043394D /* CarPing_ios_yeniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPing_ios_yeniUITests.swift; sourceTree = "<group>"; };
+		C1F16BE2247643F40043394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C750A2B53764E7337F5CE258 /* Pods_CarPing_ios_yeni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarPing_ios_yeni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BCB43D2F3AD680D7DCA4E8 /* Pods-CarPing_ios_yeni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarPing_ios_yeni.release.xcconfig"; path = "Target Support Files/Pods-CarPing_ios_yeni/Pods-CarPing_ios_yeni.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F16BB8247643F30043394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBC755BB383F3719BB993A4 /* Pods_CarPing_ios_yeni.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F16BCE247643F40043394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F16BD9247643F40043394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F68CEEC9E223E43C96CFDF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65DCCA6C26A0CCADAB8F403C /* Pods-CarPing_ios_yeni.debug.xcconfig */,
+				F8BCB43D2F3AD680D7DCA4E8 /* Pods-CarPing_ios_yeni.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A12C7D9B910E04AC8F06D261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C750A2B53764E7337F5CE258 /* Pods_CarPing_ios_yeni.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1DB88D124777EC800FF2401 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88D224777EDF00FF2401 /* SplashViewController.swift */,
+				C1DB88D324777EDF00FF2401 /* SplashViewController.xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		C1DB88D62477A17200FF2401 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88D72477A18300FF2401 /* MainTab */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C1DB88D72477A18300FF2401 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88D82477A19D00FF2401 /* MainTabViewController.swift */,
+				C1DB88DA2477A23400FF2401 /* HomeTab */,
+				C1DB88DB2477A24400FF2401 /* SearchTab */,
+				C1DB88DD2477A26D00FF2401 /* CommunityTab */,
+				C1DB88DE2477A27800FF2401 /* MyInfoTab */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		C1DB88DA2477A23400FF2401 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88DF2477A31A00FF2401 /* HomeViewController.swift */,
+				C1DB88E02477A31A00FF2401 /* HomeViewController.xib */,
+				C1DB88F32477F08E00FF2401 /* HomeTabDetail */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		C1DB88DB2477A24400FF2401 /* SearchTab */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88FE247811E100FF2401 /* SearchViewController.swift */,
+				C1DB88FF247811E100FF2401 /* SearchViewController.xib */,
+			);
+			path = SearchTab;
+			sourceTree = "<group>";
+		};
+		C1DB88DD2477A26D00FF2401 /* CommunityTab */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88E32477A38800FF2401 /* CommunityViewController.swift */,
+				C1DB88E42477A38800FF2401 /* CommunityViewController.xib */,
+			);
+			path = CommunityTab;
+			sourceTree = "<group>";
+		};
+		C1DB88DE2477A27800FF2401 /* MyInfoTab */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88E72477A39800FF2401 /* MyInfoViewController.swift */,
+				C1DB88E82477A39800FF2401 /* MyInfoViewController.xib */,
+			);
+			path = MyInfoTab;
+			sourceTree = "<group>";
+		};
+		C1DB88EF2477A71D00FF2401 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88F02477A73D00FF2401 /* extensions */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		C1DB88F02477A73D00FF2401 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88F12477A74E00FF2401 /* UIColor.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		C1DB88F32477F08E00FF2401 /* HomeTabDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88F42477F1F400FF2401 /* FirstDetailViewController.swift */,
+				C1DB88F52477F1F400FF2401 /* FirstDetailViewController.xib */,
+				C1DB88FA24780E5600FF2401 /* HomeDetailLocationViewController.swift */,
+				C1DB88FB24780E5600FF2401 /* HomeDetailLocationViewController.xib */,
+			);
+			path = HomeTabDetail;
+			sourceTree = "<group>";
+		};
+		C1F16BB2247643F30043394D = {
+			isa = PBXGroup;
+			children = (
+				C1F16BBD247643F30043394D /* CarPing_ios_yeni */,
+				C1F16BD4247643F40043394D /* CarPing_ios_yeniTests */,
+				C1F16BDF247643F40043394D /* CarPing_ios_yeniUITests */,
+				C1F16BBC247643F30043394D /* Products */,
+				7F68CEEC9E223E43C96CFDF1 /* Pods */,
+				A12C7D9B910E04AC8F06D261 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F16BBC247643F30043394D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F16BBB247643F30043394D /* CarPing_ios_yeni.app */,
+				C1F16BD1247643F40043394D /* CarPing_ios_yeniTests.xctest */,
+				C1F16BDC247643F40043394D /* CarPing_ios_yeniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F16BBD247643F30043394D /* CarPing_ios_yeni */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB88EF2477A71D00FF2401 /* config */,
+				C1DB88D124777EC800FF2401 /* Splash */,
+				C1DB88D62477A17200FF2401 /* Main */,
+				C1F16BBE247643F30043394D /* AppDelegate.swift */,
+				C1F16BC7247643F40043394D /* Assets.xcassets */,
+				C1F16BC9247643F40043394D /* LaunchScreen.storyboard */,
+				C1F16BCC247643F40043394D /* Info.plist */,
+			);
+			path = CarPing_ios_yeni;
+			sourceTree = "<group>";
+		};
+		C1F16BD4247643F40043394D /* CarPing_ios_yeniTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F16BD5247643F40043394D /* CarPing_ios_yeniTests.swift */,
+				C1F16BD7247643F40043394D /* Info.plist */,
+			);
+			path = CarPing_ios_yeniTests;
+			sourceTree = "<group>";
+		};
+		C1F16BDF247643F40043394D /* CarPing_ios_yeniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F16BE0247643F40043394D /* CarPing_ios_yeniUITests.swift */,
+				C1F16BE2247643F40043394D /* Info.plist */,
+			);
+			path = CarPing_ios_yeniUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F16BBA247643F30043394D /* CarPing_ios_yeni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F16BE5247643F40043394D /* Build configuration list for PBXNativeTarget "CarPing_ios_yeni" */;
+			buildPhases = (
+				4A119BEF5BBB8FD754B2958D /* [CP] Check Pods Manifest.lock */,
+				C1F16BB7247643F30043394D /* Sources */,
+				C1F16BB8247643F30043394D /* Frameworks */,
+				C1F16BB9247643F30043394D /* Resources */,
+				D5975DED5169FF3109B19732 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarPing_ios_yeni;
+			productName = CarPing_ios_yeni;
+			productReference = C1F16BBB247643F30043394D /* CarPing_ios_yeni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1F16BD0247643F40043394D /* CarPing_ios_yeniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F16BE8247643F40043394D /* Build configuration list for PBXNativeTarget "CarPing_ios_yeniTests" */;
+			buildPhases = (
+				C1F16BCD247643F40043394D /* Sources */,
+				C1F16BCE247643F40043394D /* Frameworks */,
+				C1F16BCF247643F40043394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F16BD3247643F40043394D /* PBXTargetDependency */,
+			);
+			name = CarPing_ios_yeniTests;
+			productName = CarPing_ios_yeniTests;
+			productReference = C1F16BD1247643F40043394D /* CarPing_ios_yeniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1F16BDB247643F40043394D /* CarPing_ios_yeniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F16BEB247643F40043394D /* Build configuration list for PBXNativeTarget "CarPing_ios_yeniUITests" */;
+			buildPhases = (
+				C1F16BD8247643F40043394D /* Sources */,
+				C1F16BD9247643F40043394D /* Frameworks */,
+				C1F16BDA247643F40043394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F16BDE247643F40043394D /* PBXTargetDependency */,
+			);
+			name = CarPing_ios_yeniUITests;
+			productName = CarPing_ios_yeniUITests;
+			productReference = C1F16BDC247643F40043394D /* CarPing_ios_yeniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F16BB3247643F30043394D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = eunjoyer;
+				TargetAttributes = {
+					C1F16BBA247643F30043394D = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					C1F16BD0247643F40043394D = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = C1F16BBA247643F30043394D;
+					};
+					C1F16BDB247643F40043394D = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = C1F16BBA247643F30043394D;
+					};
+				};
+			};
+			buildConfigurationList = C1F16BB6247643F30043394D /* Build configuration list for PBXProject "CarPing_ios_yeni" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1F16BB2247643F30043394D;
+			productRefGroup = C1F16BBC247643F30043394D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F16BBA247643F30043394D /* CarPing_ios_yeni */,
+				C1F16BD0247643F40043394D /* CarPing_ios_yeniTests */,
+				C1F16BDB247643F40043394D /* CarPing_ios_yeniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F16BB9247643F30043394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DB88F72477F1F400FF2401 /* FirstDetailViewController.xib in Resources */,
+				C1F16BCB247643F40043394D /* LaunchScreen.storyboard in Resources */,
+				C1F16BC8247643F40043394D /* Assets.xcassets in Resources */,
+				C1DB88E22477A31A00FF2401 /* HomeViewController.xib in Resources */,
+				C1DB88EA2477A39800FF2401 /* MyInfoViewController.xib in Resources */,
+				C1DB88E62477A38800FF2401 /* CommunityViewController.xib in Resources */,
+				C1DB88D524777EDF00FF2401 /* SplashViewController.xib in Resources */,
+				C1DB8901247811E100FF2401 /* SearchViewController.xib in Resources */,
+				C1DB88FD24780E5600FF2401 /* HomeDetailLocationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F16BCF247643F40043394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F16BDA247643F40043394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A119BEF5BBB8FD754B2958D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarPing_ios_yeni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5975DED5169FF3109B19732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarPing_ios_yeni/Pods-CarPing_ios_yeni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarPing_ios_yeni/Pods-CarPing_ios_yeni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarPing_ios_yeni/Pods-CarPing_ios_yeni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F16BB7247643F30043394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DB88D92477A19D00FF2401 /* MainTabViewController.swift in Sources */,
+				C1DB8900247811E100FF2401 /* SearchViewController.swift in Sources */,
+				C1F16BBF247643F30043394D /* AppDelegate.swift in Sources */,
+				C1DB88FC24780E5600FF2401 /* HomeDetailLocationViewController.swift in Sources */,
+				C1DB88D424777EDF00FF2401 /* SplashViewController.swift in Sources */,
+				C1DB88E12477A31A00FF2401 /* HomeViewController.swift in Sources */,
+				C1DB88E92477A39800FF2401 /* MyInfoViewController.swift in Sources */,
+				C1DB88E52477A38800FF2401 /* CommunityViewController.swift in Sources */,
+				C1DB88F22477A74E00FF2401 /* UIColor.swift in Sources */,
+				C1DB88F62477F1F400FF2401 /* FirstDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F16BCD247643F40043394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F16BD6247643F40043394D /* CarPing_ios_yeniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F16BD8247643F40043394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F16BE1247643F40043394D /* CarPing_ios_yeniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1F16BD3247643F40043394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F16BBA247643F30043394D /* CarPing_ios_yeni */;
+			targetProxy = C1F16BD2247643F40043394D /* PBXContainerItemProxy */;
+		};
+		C1F16BDE247643F40043394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F16BBA247643F30043394D /* CarPing_ios_yeni */;
+			targetProxy = C1F16BDD247643F40043394D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1F16BC9247643F40043394D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F16BCA247643F40043394D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1F16BE3247643F40043394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1F16BE4247643F40043394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1F16BE6247643F40043394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65DCCA6C26A0CCADAB8F403C /* Pods-CarPing_ios_yeni.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYY9A5P48K;
+				INFOPLIST_FILE = CarPing_ios_yeni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.eunjoyer.CarPing-ios-yeni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1F16BE7247643F40043394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BCB43D2F3AD680D7DCA4E8 /* Pods-CarPing_ios_yeni.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYY9A5P48K;
+				INFOPLIST_FILE = CarPing_ios_yeni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.eunjoyer.CarPing-ios-yeni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1F16BE9247643F40043394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYY9A5P48K;
+				INFOPLIST_FILE = CarPing_ios_yeniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.eunjoyer.CarPing-ios-yeniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPing_ios_yeni.app/CarPing_ios_yeni";
+			};
+			name = Debug;
+		};
+		C1F16BEA247643F40043394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYY9A5P48K;
+				INFOPLIST_FILE = CarPing_ios_yeniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.eunjoyer.CarPing-ios-yeniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPing_ios_yeni.app/CarPing_ios_yeni";
+			};
+			name = Release;
+		};
+		C1F16BEC247643F40043394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYY9A5P48K;
+				INFOPLIST_FILE = CarPing_ios_yeniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.eunjoyer.CarPing-ios-yeniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarPing_ios_yeni;
+			};
+			name = Debug;
+		};
+		C1F16BED247643F40043394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYY9A5P48K;
+				INFOPLIST_FILE = CarPing_ios_yeniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.eunjoyer.CarPing-ios-yeniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarPing_ios_yeni;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F16BB6247643F30043394D /* Build configuration list for PBXProject "CarPing_ios_yeni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F16BE3247643F40043394D /* Debug */,
+				C1F16BE4247643F40043394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F16BE5247643F40043394D /* Build configuration list for PBXNativeTarget "CarPing_ios_yeni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F16BE6247643F40043394D /* Debug */,
+				C1F16BE7247643F40043394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F16BE8247643F40043394D /* Build configuration list for PBXNativeTarget "CarPing_ios_yeniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F16BE9247643F40043394D /* Debug */,
+				C1F16BEA247643F40043394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F16BEB247643F40043394D /* Build configuration list for PBXNativeTarget "CarPing_ios_yeniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F16BEC247643F40043394D /* Debug */,
+				C1F16BED247643F40043394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F16BB3247643F30043394D /* Project object */;
+}
