@@ -9,11 +9,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    unowned var locationDataManager: LocationsDataManager {
-        get {
-            return LocationsDataManager()
-        }
-    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

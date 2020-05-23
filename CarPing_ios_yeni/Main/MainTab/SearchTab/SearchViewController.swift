@@ -9,8 +9,19 @@
 import UIKit
 
 class SearchViewController: UIViewController {
+    unowned var locationDataManager: LocationsDataManager {
+        get {
+            return LocationsDataManager()
+        }
+    }
     
-    
+    var locationsPlaceNo : [Int] = []
+        var locationsThumbnail : [URL] = []
+    //    var restaurantsStar : [String] = []
+        var locationsAddress : [String] = []
+        var locationsPlaceName : [String] = []
+        var locationsReviewCnt : [String] = []
+       
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -75,6 +86,18 @@ extension SearchViewController: UICollectionViewDelegate, UICollectionViewDataSo
             return UICollectionViewCell()
         }
         
+       
+      
+                
+                cell.locationImg.af_setImage(withURL: locationsThumbnail[indexPath.row])
+                
+                cell.detailLB.text = locationsAddress[indexPath.row]
+                
+                cell.titleLB.text = locationsPlaceName[indexPath.row]
+                
+                cell.reviewLB.text = locationsReviewCnt[indexPath.row]
+                
+               
         
         return cell
     }

@@ -10,6 +10,8 @@ import UIKit
 
 class FirstDetailViewController: UIViewController {
     
+    
+    
     @IBOutlet weak var mainBtn: UIButton!
     @IBOutlet weak var mainOneLB: UILabel!
     @IBOutlet weak var mainTwoLB: UILabel!

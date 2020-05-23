@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-  //  let baseUrl = "http://13.124.75.140"
+    let baseUrl = "http://winonesong.me"
 
 
 

@@ -13,6 +13,8 @@
 		C1C5CC492478C5BF000FE7BE /* SearchLocationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1C5CC472478C5BF000FE7BE /* SearchLocationDetailViewController.xib */; };
 		C1C5CC4C2478E15A000FE7BE /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C5CC4A2478E15A000FE7BE /* SaveViewController.swift */; };
 		C1C5CC4D2478E15A000FE7BE /* SaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1C5CC4B2478E15A000FE7BE /* SaveViewController.xib */; };
+		C1C5CC5024792D2C000FE7BE /* LocationsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C5CC4F24792D2C000FE7BE /* LocationsDataManager.swift */; };
+		C1C5CC5324792E17000FE7BE /* LocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C5CC5224792E17000FE7BE /* LocationResponse.swift */; };
 		C1DB88D424777EDF00FF2401 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88D224777EDF00FF2401 /* SplashViewController.swift */; };
 		C1DB88D524777EDF00FF2401 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DB88D324777EDF00FF2401 /* SplashViewController.xib */; };
 		C1DB88D92477A19D00FF2401 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB88D82477A19D00FF2401 /* MainTabViewController.swift */; };
@@ -62,6 +64,8 @@
 		C1C5CC472478C5BF000FE7BE /* SearchLocationDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchLocationDetailViewController.xib; sourceTree = "<group>"; };
 		C1C5CC4A2478E15A000FE7BE /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
 		C1C5CC4B2478E15A000FE7BE /* SaveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaveViewController.xib; sourceTree = "<group>"; };
+		C1C5CC4F24792D2C000FE7BE /* LocationsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataManager.swift; sourceTree = "<group>"; };
+		C1C5CC5224792E17000FE7BE /* LocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationResponse.swift; sourceTree = "<group>"; };
 		C1DB88D224777EDF00FF2401 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		C1DB88D324777EDF00FF2401 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		C1DB88D82477A19D00FF2401 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
@@ -139,8 +143,17 @@
 		C1C5CC4E24792CD8000FE7BE /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
+				C1C5CC4F24792D2C000FE7BE /* LocationsDataManager.swift */,
 			);
 			path = DataManager;
+			sourceTree = "<group>";
+		};
+		C1C5CC5124792E03000FE7BE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C1C5CC5224792E17000FE7BE /* LocationResponse.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		C1DB88D124777EC800FF2401 /* Splash */ = {
@@ -155,6 +168,7 @@
 		C1DB88D62477A17200FF2401 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				C1C5CC5124792E03000FE7BE /* Entity */,
 				C1C5CC4E24792CD8000FE7BE /* DataManager */,
 				C1DB88D72477A18300FF2401 /* MainTab */,
 			);
@@ -491,6 +505,8 @@
 				C1C5CC4C2478E15A000FE7BE /* SaveViewController.swift in Sources */,
 				C1DB88E52477A38800FF2401 /* CommunityViewController.swift in Sources */,
 				C1C5CC482478C5BF000FE7BE /* SearchLocationDetailViewController.swift in Sources */,
+				C1C5CC5024792D2C000FE7BE /* LocationsDataManager.swift in Sources */,
+				C1C5CC5324792E17000FE7BE /* LocationResponse.swift in Sources */,
 				C1DB88F22477A74E00FF2401 /* UIColor.swift in Sources */,
 				C1DB88F62477F1F400FF2401 /* FirstDetailViewController.swift in Sources */,
 				C1C5CC442478BC0B000FE7BE /* CollectionViewCell.swift in Sources */,
